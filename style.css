@@ -1,0 +1,193 @@
+/*   navigation section starts here*/
+
+#nav-bar {
+    height: 10vh;
+    width: 100vw;
+    background-color: #2874f0;
+    margin: -8px 0% 0% -8px;
+    display: flex;
+    flex-direction: row;
+}
+
+#nav-bar div {
+    height: 100%;
+}
+
+#logo {
+    width: 25%;
+    text-align: center;
+}
+
+#logo img {
+    height: 100%;
+}
+
+#search-box {
+    width: 50%;
+    padding-top: center;
+}
+
+#search-box input {
+    width: 70%;
+    height: 50%;
+    color: rgb(15, 15, 15);
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+#search-box button {
+    color: blue;
+    width: 25%;
+    height: 50%;
+    font-size: auto;
+}
+
+#account {
+    display: flex;
+    flex-direction: row;
+}
+
+#cart {
+    display: flex;
+    flex-direction: row;
+}
+
+#my-account {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+
+/*   navigation section ends here*/
+
+
+/*   item-type section starts here*/
+
+#item-type {
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    width: 100vw;
+    margin-left: -8px;
+}
+
+#item-type span {
+    width: 20%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#mobile img {
+    height: 14vh;
+    width: 14vh;
+}
+
+#mobile a {
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+#fashion img {
+    height: 14vh;
+    width: 14vh;
+}
+
+#fashion a {
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+#electronics img {
+    height: 14vh;
+    width: 14vh;
+}
+
+#electronics a {
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+#home img {
+    height: 14vh;
+    width: 14vh;
+}
+
+#home a {
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+#travel img {
+    height: 14vh;
+    width: 14vh;
+}
+
+#travel a {
+    text-decoration: none;
+    font-size: 3vh;
+}
+
+
+/* item type section ends here*/
+
+
+/* Starting 3rd section */
+
+#best-offers {
+    height: 30vh;
+    width: 100vw;
+    margin: 0px 0px 118px -8px;
+}
+
+#best-offers img {
+    height: 50vh;
+    width: 100vw;
+    border: 2px solid black;
+}
+
+
+/*Deal of the day is starting here*/
+
+#deals-of-the-day-heading {
+    height: 10vh;
+}
+
+#deal-of-the-day {
+    margin: 0px 0px 0px -8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50vh;
+}
+
+#deal-of-the-day span {
+    width: 12.3%;
+    height: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+#deal-of-the-day span img {
+    height: 30vh;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#deal-of-the-day a {
+    text-decoration: none;
+}
+
+
+/*media queries starts here*/
+
+@media screen and (max-width:350px) {
+    #best-offers img {
+        height: 20vh;
+        width: 100vw;
+    }
+    #deal-of-the-day {
+        margin: -126px -8px 0px -8px;
+        display: flex;
+        flex-direction: row;
+    }
+}
